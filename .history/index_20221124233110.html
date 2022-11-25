@@ -42,11 +42,7 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <header
-      id="header"
-      class="fixed-top d-flex align-items-center"
-      style="background-image: url(assets/img/260164.jpg)"
-    >
+    <header id="header" class="fixed-top d-flex align-items-center" style="background-image: url(assets/img/260164.jpg);">
       <div class="container d-flex align-items-center">
         <a href="index.html" class="logo me-auto"
           ><img src="assets/img/logo-2.png" alt="" class="img-fluid"
@@ -54,8 +50,8 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="sobre-nos.html" >Sobre nós</a></li>
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="sobre-nos.html">Sobre nós</a></li>
 
             <!-- <li class="dropdown">
               <a href="#"
@@ -81,12 +77,13 @@
                 </li>
               </ul>
             </li> -->
-            <li><a href="publicar.html" class="active">Publicações</a></li>
+            <li><a href="publicar.html">Publicações</a></li>
             <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="menu-video.html">Videos</a></li>
             <li><a href="artigos.html">Artigos</a></li>
             <li>
-              <a href="fale-conosco.html" class="getstarted">Fale conosco</a>
+              <a href="fale-conosco.html" class="getstarted"
+                >Fale conosco</a
+              >
             </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -96,9 +93,191 @@
     </header>
     <!-- End Header -->
 
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div
+        id="heroCarousel"
+        data-bs-interval="5000"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide 1 -->
+          <div
+            class="carousel-item active"
+            style="background-image: url(assets/img/slide/slide-1.jpg)"
+          >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">
+                  Editora <span>Azul</span>
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  A Editora Azul, empresa de origem angolana, actua, em
+                  princípio, na edição e publicação de livros, revistas e afins.
+                  Presta, também, serviços de Ghost Writer, revisão e tradução
+                  de textos, design gráfico e impressão.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                  >Saiba Mais</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div
+            class="carousel-item"
+            style="background-image: url(assets/img/slide/slide-2.jpg)"
+          >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">
+                  Editora <span>Azul</span>
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  A Editora Azul, empresa de origem angolana, actua, em
+                  princípio, na edição e publicação de livros, revistas e afins.
+                  Presta, também, serviços de Ghost Writer, revisão e tradução
+                  de textos, design gráfico e impressão.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                  >Saiba Mais</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div
+            class="carousel-item"
+            style="background-image: url(assets/img/slide/slide-3.jpg)"
+          >
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">
+                  Editora <span>Azul</span>
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  A Editora Azul, empresa de origem angolana, actua, em
+                  princípio, na edição e publicação de livros, revistas e afins.
+                  Presta, também, serviços de Ghost Writer, revisão e tradução
+                  de textos, design gráfico e impressão.
+                </p>
+                <a
+                  href="#about"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                  >Saiba Mais</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bi bi-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bi bi-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
+      </div>
+    </section>
+    <!-- End Hero -->
+
     <main id="main">
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients section-bg">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-1.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-2.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-3.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-4.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-5.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/img/clients/client-6.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Clients Section -->
+
       <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio" style="background-image: url(assets/img/260164.jpg); padding-top: 150px">
+      <section id="portfolio" class="portfolio" style="background-image: url(assets/img/260164.jpg);">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 d-flex justify-content-center">
@@ -438,9 +617,6 @@
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="menu-video.html">Videos</a></li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
                   <a href="#">Artigos</a>
                 </li>
               </ul>
@@ -471,10 +647,16 @@
             </div>
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4></h4>
+              <h4>Nossa newsletter</h4>
               <p>
                 EDITORA AZUL, "LER É VALER".
               </p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscrever-se"
+                />
+              </form>
             </div>
           </div>
         </div>
